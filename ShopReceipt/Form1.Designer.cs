@@ -58,32 +58,39 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.maloMartImage = new System.Windows.Forms.PictureBox();
+            this.potionImage = new System.Windows.Forms.PictureBox();
+            this.shieldImage = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.maloMartImage)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.potionImage)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.shieldImage)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // shieldLabel
             // 
             this.shieldLabel.AutoSize = true;
             this.shieldLabel.BackColor = System.Drawing.Color.Transparent;
-            this.shieldLabel.Font = new System.Drawing.Font("Javanese Text", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.shieldLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.shieldLabel.Font = new System.Drawing.Font("Javanese Text", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.shieldLabel.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.shieldLabel.Location = new System.Drawing.Point(24, 97);
             this.shieldLabel.Name = "shieldLabel";
-            this.shieldLabel.Size = new System.Drawing.Size(116, 29);
+            this.shieldLabel.Size = new System.Drawing.Size(132, 34);
             this.shieldLabel.TabIndex = 0;
-            this.shieldLabel.Text = "Number of Sheilds";
+            this.shieldLabel.Text = "Number of Shields";
             // 
             // potionLabel
             // 
             this.potionLabel.AutoSize = true;
             this.potionLabel.BackColor = System.Drawing.Color.Transparent;
-            this.potionLabel.Font = new System.Drawing.Font("Javanese Text", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.potionLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.potionLabel.Location = new System.Drawing.Point(21, 148);
+            this.potionLabel.Font = new System.Drawing.Font("Javanese Text", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.potionLabel.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.potionLabel.Location = new System.Drawing.Point(23, 153);
             this.potionLabel.Name = "potionLabel";
-            this.potionLabel.Size = new System.Drawing.Size(144, 29);
+            this.potionLabel.Size = new System.Drawing.Size(163, 34);
             this.potionLabel.TabIndex = 1;
             this.potionLabel.Text = "Number of Red Potions";
             // 
@@ -91,18 +98,18 @@
             // 
             this.arrowLabel.AutoSize = true;
             this.arrowLabel.BackColor = System.Drawing.Color.Transparent;
-            this.arrowLabel.Font = new System.Drawing.Font("Javanese Text", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.arrowLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.arrowLabel.Font = new System.Drawing.Font("Javanese Text", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.arrowLabel.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.arrowLabel.Location = new System.Drawing.Point(21, 212);
             this.arrowLabel.Name = "arrowLabel";
-            this.arrowLabel.Size = new System.Drawing.Size(117, 29);
+            this.arrowLabel.Size = new System.Drawing.Size(134, 34);
             this.arrowLabel.TabIndex = 2;
             this.arrowLabel.Text = "Number of Arrows";
             // 
             // shieldInput
             // 
             this.shieldInput.Font = new System.Drawing.Font("Javanese Text", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.shieldInput.Location = new System.Drawing.Point(215, 89);
+            this.shieldInput.Location = new System.Drawing.Point(259, 89);
             this.shieldInput.Name = "shieldInput";
             this.shieldInput.Size = new System.Drawing.Size(100, 37);
             this.shieldInput.TabIndex = 3;
@@ -110,7 +117,7 @@
             // potionInput
             // 
             this.potionInput.Font = new System.Drawing.Font("Javanese Text", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.potionInput.Location = new System.Drawing.Point(217, 145);
+            this.potionInput.Location = new System.Drawing.Point(259, 145);
             this.potionInput.Name = "potionInput";
             this.potionInput.Size = new System.Drawing.Size(100, 37);
             this.potionInput.TabIndex = 4;
@@ -118,7 +125,7 @@
             // arrowInput
             // 
             this.arrowInput.Font = new System.Drawing.Font("Javanese Text", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.arrowInput.Location = new System.Drawing.Point(217, 204);
+            this.arrowInput.Location = new System.Drawing.Point(259, 204);
             this.arrowInput.Name = "arrowInput";
             this.arrowInput.Size = new System.Drawing.Size(100, 37);
             this.arrowInput.TabIndex = 5;
@@ -132,7 +139,7 @@
             this.calculateButton.Font = new System.Drawing.Font("Javanese Text", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.calculateButton.Location = new System.Drawing.Point(27, 254);
             this.calculateButton.Name = "calculateButton";
-            this.calculateButton.Size = new System.Drawing.Size(290, 36);
+            this.calculateButton.Size = new System.Drawing.Size(331, 36);
             this.calculateButton.TabIndex = 6;
             this.calculateButton.Text = "Calculate";
             this.calculateButton.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -143,11 +150,11 @@
             // 
             this.subLabel.AutoSize = true;
             this.subLabel.BackColor = System.Drawing.Color.Transparent;
-            this.subLabel.Font = new System.Drawing.Font("Javanese Text", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.subLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.subLabel.Font = new System.Drawing.Font("Javanese Text", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.subLabel.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.subLabel.Location = new System.Drawing.Point(20, 304);
             this.subLabel.Name = "subLabel";
-            this.subLabel.Size = new System.Drawing.Size(74, 29);
+            this.subLabel.Size = new System.Drawing.Size(84, 34);
             this.subLabel.TabIndex = 7;
             this.subLabel.Text = "Sub Total :";
             // 
@@ -155,11 +162,11 @@
             // 
             this.taxLabel.AutoSize = true;
             this.taxLabel.BackColor = System.Drawing.Color.Transparent;
-            this.taxLabel.Font = new System.Drawing.Font("Javanese Text", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.taxLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.taxLabel.Font = new System.Drawing.Font("Javanese Text", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.taxLabel.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.taxLabel.Location = new System.Drawing.Point(20, 344);
             this.taxLabel.Name = "taxLabel";
-            this.taxLabel.Size = new System.Drawing.Size(40, 29);
+            this.taxLabel.Size = new System.Drawing.Size(46, 34);
             this.taxLabel.TabIndex = 8;
             this.taxLabel.Text = "Tax :";
             // 
@@ -167,44 +174,44 @@
             // 
             this.totalLabel.AutoSize = true;
             this.totalLabel.BackColor = System.Drawing.Color.Transparent;
-            this.totalLabel.Font = new System.Drawing.Font("Javanese Text", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.totalLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.totalLabel.Font = new System.Drawing.Font("Javanese Text", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.totalLabel.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.totalLabel.Location = new System.Drawing.Point(20, 383);
             this.totalLabel.Name = "totalLabel";
-            this.totalLabel.Size = new System.Drawing.Size(50, 29);
+            this.totalLabel.Size = new System.Drawing.Size(56, 34);
             this.totalLabel.TabIndex = 9;
             this.totalLabel.Text = "Total :";
             // 
             // subOutput
             // 
             this.subOutput.BackColor = System.Drawing.Color.Transparent;
-            this.subOutput.Font = new System.Drawing.Font("Javanese Text", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.subOutput.Font = new System.Drawing.Font("Javanese Text", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.subOutput.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.subOutput.Location = new System.Drawing.Point(238, 304);
+            this.subOutput.Location = new System.Drawing.Point(277, 304);
             this.subOutput.Name = "subOutput";
-            this.subOutput.Size = new System.Drawing.Size(53, 17);
+            this.subOutput.Size = new System.Drawing.Size(81, 26);
             this.subOutput.TabIndex = 10;
             this.subOutput.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // taxOutput
             // 
             this.taxOutput.BackColor = System.Drawing.Color.Transparent;
-            this.taxOutput.Font = new System.Drawing.Font("Javanese Text", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.taxOutput.Font = new System.Drawing.Font("Javanese Text", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.taxOutput.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.taxOutput.Location = new System.Drawing.Point(238, 344);
+            this.taxOutput.Location = new System.Drawing.Point(276, 344);
             this.taxOutput.Name = "taxOutput";
-            this.taxOutput.Size = new System.Drawing.Size(53, 17);
+            this.taxOutput.Size = new System.Drawing.Size(82, 26);
             this.taxOutput.TabIndex = 11;
             this.taxOutput.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // totalOutput
             // 
             this.totalOutput.BackColor = System.Drawing.Color.Transparent;
-            this.totalOutput.Font = new System.Drawing.Font("Javanese Text", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.totalOutput.Font = new System.Drawing.Font("Javanese Text", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.totalOutput.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.totalOutput.Location = new System.Drawing.Point(238, 383);
+            this.totalOutput.Location = new System.Drawing.Point(274, 383);
             this.totalOutput.Name = "totalOutput";
-            this.totalOutput.Size = new System.Drawing.Size(53, 17);
+            this.totalOutput.Size = new System.Drawing.Size(84, 26);
             this.totalOutput.TabIndex = 12;
             this.totalOutput.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
@@ -213,36 +220,36 @@
             this.label4.BackColor = System.Drawing.SystemColors.ControlLight;
             this.label4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label4.Location = new System.Drawing.Point(345, 89);
+            this.label4.Location = new System.Drawing.Point(392, 89);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(268, 452);
+            this.label4.Size = new System.Drawing.Size(268, 495);
             this.label4.TabIndex = 13;
             // 
             // label5
             // 
-            this.label5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.label5.ForeColor = System.Drawing.Color.SaddleBrown;
+            this.label5.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.label5.ForeColor = System.Drawing.Color.Transparent;
             this.label5.Location = new System.Drawing.Point(25, 416);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(290, 15);
+            this.label5.Size = new System.Drawing.Size(333, 15);
             this.label5.TabIndex = 14;
             // 
             // tenderedLabel
             // 
             this.tenderedLabel.AutoSize = true;
             this.tenderedLabel.BackColor = System.Drawing.Color.Transparent;
-            this.tenderedLabel.Font = new System.Drawing.Font("Javanese Text", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tenderedLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.tenderedLabel.Font = new System.Drawing.Font("Javanese Text", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tenderedLabel.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.tenderedLabel.Location = new System.Drawing.Point(24, 455);
             this.tenderedLabel.Name = "tenderedLabel";
-            this.tenderedLabel.Size = new System.Drawing.Size(72, 29);
+            this.tenderedLabel.Size = new System.Drawing.Size(83, 34);
             this.tenderedLabel.TabIndex = 15;
             this.tenderedLabel.Text = "Tendered :";
             // 
             // tenderedInput
             // 
             this.tenderedInput.Font = new System.Drawing.Font("Javanese Text", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tenderedInput.Location = new System.Drawing.Point(216, 447);
+            this.tenderedInput.Location = new System.Drawing.Point(258, 452);
             this.tenderedInput.Name = "tenderedInput";
             this.tenderedInput.Size = new System.Drawing.Size(100, 37);
             this.tenderedInput.TabIndex = 16;
@@ -255,7 +262,7 @@
             this.changeButton.Font = new System.Drawing.Font("Javanese Text", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.changeButton.Location = new System.Drawing.Point(26, 499);
             this.changeButton.Name = "changeButton";
-            this.changeButton.Size = new System.Drawing.Size(291, 42);
+            this.changeButton.Size = new System.Drawing.Size(332, 42);
             this.changeButton.TabIndex = 17;
             this.changeButton.Text = "Calculate Change";
             this.changeButton.UseVisualStyleBackColor = true;
@@ -265,22 +272,22 @@
             // 
             this.changeLabel.AutoSize = true;
             this.changeLabel.BackColor = System.Drawing.Color.Transparent;
-            this.changeLabel.Font = new System.Drawing.Font("Javanese Text", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.changeLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.changeLabel.Font = new System.Drawing.Font("Javanese Text", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.changeLabel.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.changeLabel.Location = new System.Drawing.Point(21, 555);
             this.changeLabel.Name = "changeLabel";
-            this.changeLabel.Size = new System.Drawing.Size(61, 29);
+            this.changeLabel.Size = new System.Drawing.Size(70, 34);
             this.changeLabel.TabIndex = 18;
             this.changeLabel.Text = "Change :";
             // 
             // changeOutput
             // 
             this.changeOutput.BackColor = System.Drawing.Color.Transparent;
-            this.changeOutput.Font = new System.Drawing.Font("Javanese Text", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.changeOutput.Font = new System.Drawing.Font("Javanese Text", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.changeOutput.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.changeOutput.Location = new System.Drawing.Point(239, 555);
+            this.changeOutput.Location = new System.Drawing.Point(305, 555);
             this.changeOutput.Name = "changeOutput";
-            this.changeOutput.Size = new System.Drawing.Size(53, 17);
+            this.changeOutput.Size = new System.Drawing.Size(53, 28);
             this.changeOutput.TabIndex = 19;
             this.changeOutput.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
@@ -290,9 +297,9 @@
             this.printButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Aquamarine;
             this.printButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.printButton.Font = new System.Drawing.Font("Javanese Text", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.printButton.Location = new System.Drawing.Point(25, 594);
+            this.printButton.Location = new System.Drawing.Point(30, 594);
             this.printButton.Name = "printButton";
-            this.printButton.Size = new System.Drawing.Size(288, 42);
+            this.printButton.Size = new System.Drawing.Size(328, 42);
             this.printButton.TabIndex = 20;
             this.printButton.Text = "Print Receipt";
             this.printButton.UseVisualStyleBackColor = true;
@@ -304,9 +311,9 @@
             this.newButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Violet;
             this.newButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.newButton.Font = new System.Drawing.Font("Javanese Text", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.newButton.Location = new System.Drawing.Point(345, 594);
+            this.newButton.Location = new System.Drawing.Point(392, 594);
             this.newButton.Name = "newButton";
-            this.newButton.Size = new System.Drawing.Size(249, 42);
+            this.newButton.Size = new System.Drawing.Size(268, 42);
             this.newButton.TabIndex = 21;
             this.newButton.Text = "New Order";
             this.newButton.UseVisualStyleBackColor = true;
@@ -316,9 +323,9 @@
             // 
             this.receiptLabel.BackColor = System.Drawing.SystemColors.ControlLight;
             this.receiptLabel.Font = new System.Drawing.Font("Javanese Text", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.receiptLabel.Location = new System.Drawing.Point(364, 97);
+            this.receiptLabel.Location = new System.Drawing.Point(411, 97);
             this.receiptLabel.Name = "receiptLabel";
-            this.receiptLabel.Size = new System.Drawing.Size(230, 424);
+            this.receiptLabel.Size = new System.Drawing.Size(230, 34);
             this.receiptLabel.TabIndex = 22;
             this.receiptLabel.Click += new System.EventHandler(this.label6_Click);
             // 
@@ -331,7 +338,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::ShopReceipt.Properties.Resources.maloMartSign;
-            this.pictureBox1.Location = new System.Drawing.Point(70, 6);
+            this.pictureBox1.Location = new System.Drawing.Point(106, 6);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(70, 58);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -341,7 +348,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::ShopReceipt.Properties.Resources.maloMartSign;
-            this.pictureBox2.Location = new System.Drawing.Point(460, 6);
+            this.pictureBox2.Location = new System.Drawing.Point(552, 6);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(70, 58);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -354,7 +361,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Javanese Text", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label1.Location = new System.Drawing.Point(235, 17);
+            this.label1.Location = new System.Drawing.Point(292, 17);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(143, 47);
             this.label1.TabIndex = 25;
@@ -363,7 +370,7 @@
             // maloMartImage
             // 
             this.maloMartImage.Image = global::ShopReceipt.Properties.Resources.maloMartSign;
-            this.maloMartImage.Location = new System.Drawing.Point(514, 455);
+            this.maloMartImage.Location = new System.Drawing.Point(561, 499);
             this.maloMartImage.Name = "maloMartImage";
             this.maloMartImage.Size = new System.Drawing.Size(70, 58);
             this.maloMartImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -371,13 +378,62 @@
             this.maloMartImage.TabStop = false;
             this.maloMartImage.Visible = false;
             // 
+            // potionImage
+            // 
+            this.potionImage.BackColor = System.Drawing.Color.Transparent;
+            this.potionImage.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.potionImage.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.potionImage.Image = global::ShopReceipt.Properties.Resources.redPotion;
+            this.potionImage.Location = new System.Drawing.Point(188, 153);
+            this.potionImage.Name = "potionImage";
+            this.potionImage.Size = new System.Drawing.Size(23, 29);
+            this.potionImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.potionImage.TabIndex = 27;
+            this.potionImage.TabStop = false;
+            // 
+            // shieldImage
+            // 
+            this.shieldImage.BackColor = System.Drawing.Color.Transparent;
+            this.shieldImage.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.shieldImage.Image = global::ShopReceipt.Properties.Resources.woodenShield;
+            this.shieldImage.Location = new System.Drawing.Point(162, 97);
+            this.shieldImage.Name = "shieldImage";
+            this.shieldImage.Size = new System.Drawing.Size(40, 28);
+            this.shieldImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.shieldImage.TabIndex = 28;
+            this.shieldImage.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox3.Image = global::ShopReceipt.Properties.Resources.BotW_Arrow_Model;
+            this.pictureBox3.Location = new System.Drawing.Point(161, 212);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(65, 34);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 29;
+            this.pictureBox3.TabStop = false;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(522, 232);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(0, 13);
+            this.label2.TabIndex = 30;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::ShopReceipt.Properties.Resources.Malo_Mart_Inside;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(625, 648);
+            this.ClientSize = new System.Drawing.Size(677, 648);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.shieldImage);
+            this.Controls.Add(this.potionImage);
             this.Controls.Add(this.maloMartImage);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox2);
@@ -412,6 +468,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.maloMartImage)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.potionImage)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.shieldImage)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -447,6 +506,10 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox maloMartImage;
+        private System.Windows.Forms.PictureBox potionImage;
+        private System.Windows.Forms.PictureBox shieldImage;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.Label label2;
     }
 }
 

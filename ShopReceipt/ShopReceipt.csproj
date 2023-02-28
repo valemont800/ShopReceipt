@@ -108,7 +108,16 @@
     <None Include="Resources\shield.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\maloSong.wav" />
+    <None Include="Resources\woodenShield.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BotW_Arrow_Model.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maloMartTheme.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maloMartTheme %281%29.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

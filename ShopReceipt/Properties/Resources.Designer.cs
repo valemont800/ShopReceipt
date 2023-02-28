@@ -61,6 +61,16 @@ namespace ShopReceipt.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap BotW_Arrow_Model {
+            get {
+                object obj = ResourceManager.GetObject("BotW_Arrow_Model", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
         internal static System.IO.UnmanagedMemoryStream chestOpening {
@@ -102,9 +112,9 @@ namespace ShopReceipt.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
-        internal static System.IO.UnmanagedMemoryStream maloSong {
+        internal static System.IO.UnmanagedMemoryStream maloMartTheme_1_ {
             get {
-                return ResourceManager.GetStream("maloSong", resourceCulture);
+                return ResourceManager.GetStream("maloMartTheme_1_", resourceCulture);
             }
         }
         
@@ -142,6 +152,16 @@ namespace ShopReceipt.Properties {
         internal static System.Drawing.Bitmap shield {
             get {
                 object obj = ResourceManager.GetObject("shield", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap woodenShield {
+            get {
+                object obj = ResourceManager.GetObject("woodenShield", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

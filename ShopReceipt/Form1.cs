@@ -21,8 +21,8 @@ namespace ShopReceipt
         //global variables
 
         //prices
-        double shieldPrice = 8.25;
-        double potionPrice = 5.00;
+        double shieldPrice = 5.25;
+        double potionPrice = 3.00;
         double arrowPrice = 1.25;
 
         //amount
@@ -41,7 +41,7 @@ namespace ShopReceipt
             //check
             if (numOfShields == 0)
             {
-               
+                receiptLabel.Text += "";
             }
                 
 
@@ -51,66 +51,94 @@ namespace ShopReceipt
 
             //receipt text
             receiptLabel.Text = $"                          - Malo Mart -";
+
+            receiptLabel.BackColor = Color.White;
+            receiptLabel.Size = new Size(receiptLabel.Size.Width, receiptLabel.Size.Height + 14);
             Thread.Sleep(500);
-            Refresh();
+            receiptLabel.Refresh();
 
+            receiptLabel.Size = new Size(receiptLabel.Size.Width, receiptLabel.Size.Height + 14);
 
-
+            receiptLabel.Size = new Size(receiptLabel.Size.Width, receiptLabel.Size.Height + 14);
             receiptLabel.Text += $"\n\n     Hylien Shields      x{numOfShields}      @      {shieldPrice}";
             Thread.Sleep(500);
-            Refresh();
+            receiptLabel.Refresh();
 
+            receiptLabel.Size = new Size(receiptLabel.Size.Width, receiptLabel.Size.Height + 14);
             player.Play();
 
-            
+            receiptLabel.Size = new Size(receiptLabel.Size.Width, receiptLabel.Size.Height + 14);
             receiptLabel.Text += $"\n     Red Potions          x{numOfPotions}      @       {potionPrice}";
             Thread.Sleep(500);
-            Refresh();
+            receiptLabel.Refresh();
 
+            receiptLabel.Size = new Size(receiptLabel.Size.Width, receiptLabel.Size.Height + 14);
             receiptLabel.Text += $"\n     Arrows                  x{numOfArrows}      @      {arrowPrice}";
             Thread.Sleep(500);
-            Refresh();
+            receiptLabel.Refresh();
 
+            receiptLabel.Size = new Size(receiptLabel.Size.Width, receiptLabel.Size.Height + 14);
             player.Play();
 
-            receiptLabel.Text += $"\n\n    Subtotal                                   {subTotal.ToString("C")}";
+            receiptLabel.Size = new Size(receiptLabel.Size.Width, receiptLabel.Size.Height + 14);
+            receiptLabel.Text += $"\n\n    Subtotal                                      {subTotal.ToString("C")}";
             Thread.Sleep(500);
-            Refresh();
+            receiptLabel.Refresh();
 
-            receiptLabel.Text += $"\n    Tax                                              {taxAmount.ToString("C")}";
+            receiptLabel.Size = new Size(receiptLabel.Size.Width, receiptLabel.Size.Height + 14);
+            receiptLabel.Text += $"\n    Tax                                               {taxAmount.ToString("C")}";
             Thread.Sleep(500);
-            Refresh();
+            receiptLabel.Refresh();
 
+            receiptLabel.Size = new Size(receiptLabel.Size.Width, receiptLabel.Size.Height + 14);
             player.Play();
 
-            receiptLabel.Text += $"\n    Total                                          {totalPrice.ToString("C")}";
+            receiptLabel.Size = new Size(receiptLabel.Size.Width, receiptLabel.Size.Height + 14);
+            receiptLabel.Text += $"\n    Total                                           {totalPrice.ToString("C")}";
             Thread.Sleep(500);    
-            Refresh();
+            receiptLabel.Refresh();
 
+            receiptLabel.Size = new Size(receiptLabel.Size.Width, receiptLabel.Size.Height + 14);
+            receiptLabel.Size = new Size(receiptLabel.Size.Width, receiptLabel.Size.Height + 14);
             receiptLabel.Text += $"\n\n     Tendered                                  {tendered.ToString("C")}";
             Thread.Sleep(500);
-            Refresh();
+            receiptLabel.Refresh();
 
+            receiptLabel.Size = new Size(receiptLabel.Size.Width, receiptLabel.Size.Height + 14);
             player.Play();
 
+            receiptLabel.Size = new Size(receiptLabel.Size.Width, receiptLabel.Size.Height + 14);
             receiptLabel.Text += $"\n     Change                                       {change.ToString("C")}";
             Thread.Sleep(500);
-            Refresh();
+            receiptLabel.Refresh();
 
+            receiptLabel.Size = new Size(receiptLabel.Size.Width, receiptLabel.Size.Height + 14);
             receiptLabel.Text += "\n----------------------------------------------------";
             Thread.Sleep(500);
-            Refresh();
+            receiptLabel.Refresh();
 
+            receiptLabel.Size = new Size(receiptLabel.Size.Width, receiptLabel.Size.Height + 14);
             SoundPlayer player2 = new SoundPlayer(Properties.Resources.chestOpening);
             player2.Play();
 
+            receiptLabel.Size = new Size(receiptLabel.Size.Width, receiptLabel.Size.Height + 14);
             receiptLabel.Text += "\nThank You for Shopping at Malo Mart !";
             Thread.Sleep(500);
-            Refresh();
+            receiptLabel.Refresh();
 
+            receiptLabel.Size = new Size(receiptLabel.Size.Width, receiptLabel.Size.Height + 14);
             receiptLabel.Text += "\n             Have a Nice Day :]";
+            Thread.Sleep(500);
+            receiptLabel.Refresh();
+
+            receiptLabel.Size = new Size(receiptLabel.Size.Width, receiptLabel.Size.Height + 181);
+            receiptLabel.Refresh();
+            Thread.Sleep(500);
 
             maloMartImage.Visible = true;
+            receiptLabel.Refresh();
+            
+
 
 
         }
@@ -145,6 +173,13 @@ namespace ShopReceipt
             receiptLabel.Text = "";
 
             maloMartImage.Visible = false;
+
+            receiptLabel.Size = new Size(receiptLabel.Size.Width, receiptLabel.Size.Height - 600);
+
+            //easter egg song stops
+            SoundPlayer player2 = new SoundPlayer(Properties.Resources.maloMartTheme_1_);
+            player2.Stop();
+
         }
 
         public Form1()
@@ -202,11 +237,14 @@ namespace ShopReceipt
                 //easter egg
                 if (numOfShields == 11 && numOfPotions == 19 && numOfArrows == 2006)
                 {
-                    SoundPlayer player2 = new SoundPlayer(Properties.Resources.maloSong);
+                    SoundPlayer player2 = new SoundPlayer(Properties.Resources.maloMartTheme_1_);
                     player2.Play();
 
+                    receiptLabel.Size = new Size(receiptLabel.Size.Width, receiptLabel.Size.Height + 250);
+                    receiptLabel.Refresh();
+
                     receiptLabel.Text = ":OO You found the easter egg !!!";
-                    receiptLabel.Text += "Good job :]";
+                    receiptLabel.Text += "\nGood job :]";
                 }
 
             }
@@ -218,7 +256,7 @@ namespace ShopReceipt
 
                 shieldInput.Text = "ERROR :[";
                 arrowInput.Text = "ERROR :[";
-                potionInput.Text = "ERROR";
+                potionInput.Text = "ERROR :[";
 
                 changeOutput.Text = "";
 
